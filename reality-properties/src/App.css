@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 .App {
   max-width: 1440px;
   margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App-header {
@@ -23,6 +26,7 @@
 
 .Header-Menu {
   font-size: 14px;
+  font-weight: normal;
   float: left;
 }
 
@@ -47,4 +51,16 @@
 .Header-Menu ul li a {
   text-decoration: none;
   cursor: pointer;
+}
+
+.Main-Header {
+  margin: 158px 0 0 0;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.Sub-Header {
+  margin: 10px 0 40px 0;
+  font-size: 18px;
+  font-weight: bold;
 }
