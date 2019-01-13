@@ -1,66 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-.App {
-  max-width: 1440px;
-  margin: 0 auto;
-  font-family: 'Open Sans', sans-serif;
-}
+.white {color: white;}
+.blue {color: #004dff;}
+.gray {color: #454545;}
+.black {color: black;}
 
-.App-header {
-  color: white;
-  background-image: url("./assets/images/background-header@2x.png");
-  background-size: cover;
-  height: 570px;
+.section {
   max-width: 1110px;
-  display: flex;
-  flex-direction: column;
   padding: 40px 165px;
 }
 
-.App-logo {
-  height: 42px;
-  width: 161px;
-  object-fit: contain;
-  float: left;
-}
-
-.Header-Menu {
-  font-size: 14px;
-  font-weight: normal;
-  float: left;
-}
-
-.Header-Menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 0 30px;
-  text-align: center;
-  float: left;
-}
-
-.Header-Menu .icon-Menu {
-  float: right;
-  margin-right: -20px;
-}
-
-.Header-Menu ul li {
-  display: inline-block;
-  margin: 10px 20px;
-}
-
-.Header-Menu ul li a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.Main-Header {
-  margin: 158px 0 0 0;
-  font-size: 44px;
-  font-weight: bold;
-}
-
-.Sub-Header {
-  margin: 10px 0 40px 0;
-  font-size: 18px;
-  font-weight: bold;
+.main-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
 }

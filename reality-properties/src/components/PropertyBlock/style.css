@@ -1,0 +1,6 @@
+.block {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  border: solid 1px #f0f0f1;
+}

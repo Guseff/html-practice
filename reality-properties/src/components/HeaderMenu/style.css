@@ -1,0 +1,35 @@
+.logo {
+  height: 42px;
+  width: 161px;
+  object-fit: contain;
+  float: left;
+}
+
+.header-menu {
+  font-size: 14px;
+  font-weight: normal;
+  float: left;
+}
+
+.header-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 30px;
+  text-align: center;
+  float: left;
+}
+
+.header-menu .icon {
+  float: right;
+  margin-right: -20px;
+}
+
+.header-menu ul li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.header-menu ul li a {
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -3,17 +3,17 @@ import React, { Component } from 'react';
 import HeaderMenu from '../HeaderMenu';
 import HeaderSearch from '../HeaderSearch';
 
-import '../../App.css';
+import './style.css';
 
 class Header extends Component {
   render() {
     return (
-      <header className="App-header">
+      <header className="app-header section white">
         <HeaderMenu />
-        <h1 className="Main-Header">
+        <h1 className="title">
           Let us Guide You Home
         </h1>
-        <h3 className="Sub-Header">
+        <h3 className="description">
           Find the house of your dreams.
         </h3>
         <HeaderSearch />

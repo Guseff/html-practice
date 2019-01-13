@@ -1,0 +1,19 @@
+.app-header {
+  background-image: url("../../assets/images/background-header@2x.png");
+  background-size: cover;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 158px 0 0 0;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.description {
+  margin: 10px 0 40px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
