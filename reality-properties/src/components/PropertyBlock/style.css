@@ -1,6 +1,57 @@
 .block {
   width: 350px;
   height: 400px;
-  display: flex;
-  border: solid 1px #f0f0f1;
+  display: block;
+  border: solid 1px #000000;
+}
+
+.home-pic {
+  display: block;
+  width: 350px;
+  height: 250px;
+}
+
+.home-title {
+  margin: 20px 0 0 20px;
+  font-size: 18px;
+}
+
+.home-price {
+  margin: 5px 0 0 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.home-address {
+  margin: 5px 0 0 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home-option-box {
+  margin: 6px 0 0 20px;
+  font-size: 14px;
+}
+
+.home-option-box .option {
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  margin-right: 10px;
+  float: left;
+}
+
+.home-option-box .beds {
+  background-image: url("../../assets/images/beds-ico.svg");
+  background-size: 20px;
+  background-position: 6px 2px;
+}
+.home-option-box .bath {
+  background-image: url("../../assets/images/bath-ico.svg");
+  background-size: 30px;
+  background-position: 6px -4px;
+}
+.home-option-box .sqft {
+  background-image: url("../../assets/images/sqft-ico.svg");
+  background-size: 17px;
+  background-position: 6px 2px;
 }

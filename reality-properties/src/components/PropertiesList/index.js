@@ -16,9 +16,14 @@ class PropertiesList extends Component {
           <PropertyBlock />
           <PropertyBlock />
           <PropertyBlock />
+        </div>
+        <div className="wrapper">
           <PropertyBlock />
           <PropertyBlock />
           <PropertyBlock />
+        </div>
+        <div className="btn-wrapper">
+          <button className="btn-big-blue white">All Properties</button>
         </div>
       </section>
     );
