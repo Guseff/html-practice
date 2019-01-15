@@ -1,0 +1,17 @@
+.info-block {
+  width: 440px;
+  height: 250x;
+  display: block;
+  border: none;
+  background-color: #f6f7f9;
+  padding: 50px;
+}
+
+.info-title {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.info-subscribe {
+  font-size: 18px;
+}

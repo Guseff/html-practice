@@ -7,7 +7,7 @@ import './style.css';
 class PropertyBlock extends Component {
   render() {
     return (
-      <div className="block">
+      <div className="prop-block">
         <img src={pic} className="home-pic" />
         <div className="home-title gray">
           Villa With Pool For Sale

@@ -1,8 +1,8 @@
-.block {
+.prop-block {
   width: 350px;
   height: 400px;
   display: block;
-  border: solid 1px #000000;
+  border: solid 1px #f0f0f1;
 }
 
 .home-pic {
