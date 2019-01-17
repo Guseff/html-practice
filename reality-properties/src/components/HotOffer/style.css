@@ -1,0 +1,14 @@
+.wrapper-offer {
+  max-width: 1110px;
+  display: block;
+  margin: 30px 0;
+}
+
+.hot-offer {
+  background-image: url("../../assets/images/background-image@2x.png");
+  background-size: cover;
+  height: 700px;
+  display: block;
+  flex-direction: column;
+  margin: 60px 0;
+}

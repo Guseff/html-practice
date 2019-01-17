@@ -1,0 +1,67 @@
+.offer-block {
+  width: 504px;
+  height: 324px;
+  display: block;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.offer-sale {
+  width: 87px;
+  height: 30px;
+  color: #FFFFFF;
+  background-color: #ff9f00;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.offer-title {
+  margin: 20px 0 0 20px;
+  font-size: 32px;
+  letter-spacing: -1px;
+  color: #000000;
+}
+
+.offer-price {
+  margin: 5px 0 0 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #004dff;
+}
+
+.offer-address {
+  margin: 5px 0 0 20px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #454545;
+}
+
+.offer-option-box {
+  margin: 6px 0 0 20px;
+  font-size: 14px;
+  color: #454545;
+}
+
+.offer-option-box .option {
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  margin-right: 10px;
+  float: left;
+}
+
+.offer-option-beds {
+  background-image: url("../../assets/images/beds-ico.svg");
+  background-size: 20px;
+  background-position: 6px 2px;
+}
+.offer-option-bath {
+  background-image: url("../../assets/images/bath-ico.svg");
+  background-size: 30px;
+  background-position: 6px -4px;
+}
+.offer-option-sqft {
+  background-image: url("../../assets/images/sqft-ico.svg");
+  background-size: 17px;
+  background-position: 6px 2px;
+}
