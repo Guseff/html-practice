@@ -25,9 +25,10 @@
   justify-content: center;
 }
 
-.btn-big-blue {
+.btn-big--blue {
   width: 150px;
   height: 50px;
   border-radius: 25px;
+  color: #ffffff;
   background-color: #004dff;
 }

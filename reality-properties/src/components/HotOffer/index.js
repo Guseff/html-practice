@@ -8,7 +8,7 @@ import './style.css';
 class HotOffer extends Component {
   render() {
     return (
-      <section className="hot-offer section">
+      <section className="section-hot-offer">
         <div className="wrapper-offer">
           <OfferBlock />
           <CrewBlock />
