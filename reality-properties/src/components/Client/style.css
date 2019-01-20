@@ -8,7 +8,7 @@
   padding: 50px;
   margin-top: 50px;
   align-items: center;
-  z-index: 88;
+  /*z-index: 88;*/
 }
 
 .client-photo--normal {
@@ -45,7 +45,7 @@
   background-color: #ffffff;
   padding: 50px;
   align-items: center;
-  z-index: 99;
+  /*z-index: 99;*/
 }
 
 .client-photo--big {

@@ -21,6 +21,30 @@
   margin-bottom: 30px;
 }
 
-.center {
+.carousel-wrapper {
   height: 550px;
+}
+
+.slick-prev,
+.slick-prev:hover,
+.slick-prev:focus
+{
+  width: 16px;
+  height: 16px;
+  background-image: url('../../assets/images/left-arrow.svg');
+}
+
+.slick-next,
+.slick-next:hover,
+.slick-next:focus
+{
+  width: 16px;
+  height: 16px;
+  background-image: url('../../assets/images/right-arrow.svg');
+}
+
+.slick-prev:before, 
+.slick-next:before 
+{
+  content: "";
 }

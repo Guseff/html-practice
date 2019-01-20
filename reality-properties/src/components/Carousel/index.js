@@ -38,13 +38,12 @@ function PrevArrow(props) {
 class Carousel extends Component {
   render() {
     const settings = {
-      className: "center",
+      className: "carousel-wrapper",
+      speed: 2000,
       centerMode: true,
-      infinite: true,
-      centerPadding: "60px",
+      centerPadding: "0",
       slidesToShow: 3,
       slidesToScroll: 3,
-      speed: 500,
       arrows: true,
     };
     const text = 'Have you ever heard the expression, “Do not count your chickens before they hatch?” Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to What you profess, you possess!';
@@ -59,23 +58,30 @@ class Carousel extends Component {
             What Our Clients Say
           </div>
           <Slider {...settings}>
-            <Client 
+            <Client
               class={'normal'}
               src={photo1}
               name={name1}
-              text={text}
             />
-            <Client 
-              class={'big'}
+            <Client
+              class={'normal'}
               src={photo2}
               name={name2}
-              text={text}
             />
-            <Client 
+            <Client
               class={'normal'}
               src={photo3}
               name={name3}
-              text={text}
+            />
+            <Client
+              class={'normal'}
+              src={photo1}
+              name={name1}
+            />
+            <Client
+              class={'normal'}
+              src={photo2}
+              name={name2}
             />
           </Slider>
         </div>
