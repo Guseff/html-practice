@@ -9,6 +9,7 @@
   margin-top: 50px;
   align-items: center;
   border: solid 1px red;
+  transition: all 500ms ease;
   /*z-index: 88;*/
 }
 
@@ -38,7 +39,7 @@
 
 .client-block--big, .slick-current .client-block--normal {
   width: 345px;
-  height: 450px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   border: none;
@@ -48,12 +49,15 @@
   margin-top: 0;
   align-items: center;
   border: solid 1px blue;
+  transform: scaleY(1.28);
+  transition: all 500ms ease;
   /*z-index: 99;*/
 }
 
 .client-photo--big, .slick-current .client-photo--normal {
   width: 120px;
   height: 120px;
+  transform: scaleY(0.9375);
 }
 
 .client-name--big, .slick-current .client-name--normal {
@@ -63,6 +67,7 @@
   text-align: center;
   margin-bottom: 20px;
   margin-top: 50px;
+  transform: scaleY(0.9375);
 }
 
 .client-text--big, .slick-current .client-text--normal {
@@ -71,5 +76,6 @@
   line-height: 1.5;
   text-align: center;
   color: #454545;
+  transform: scaleY(0.9375);
   /*overflow-y: hidden;*/
 }

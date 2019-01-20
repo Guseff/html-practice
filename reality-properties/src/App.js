@@ -5,6 +5,7 @@ import PropertiesList from './components/PropertiesList';
 import ContactList from './components/ContactList';
 import HotOffer from './components/HotOffer';
 import Carousel from './components/Carousel';
+import Swip from './components/Swiper';
 import Footer from './components/Footer';
 
 import './App.css';
@@ -18,6 +19,7 @@ class App extends Component {
         <ContactList />
         <HotOffer />
         <Carousel />
+        <Swip />
         <Footer />
       </div>
     );
