@@ -17,12 +17,14 @@
   letter-spacing: -1px;
   text-align: center;
   color: #000000;
-  margin-bottom: 30px;
 }
 
 .carousel-wrapper {
-  height: 550px;
-  padding-top: 10px;
+  height: 640px;
+}
+
+.slick-list {
+  height: inherit;
 }
 
 .slick-prev,

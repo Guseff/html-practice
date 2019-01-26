@@ -13,37 +13,16 @@ import photo3 from '../../assets/images/girl-2@2x.png';
 import nextArrow from '../../assets/images/left-arrow.svg';
 import prevArrow from '../../assets/images/right-arrow.svg';
 
-function NextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", width: "16px", height: "16px", backgroundImage: {nextArrow} }}
-      onClick={onClick}
-    />
-  );
-}
-
-function PrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "green" }}
-      onClick={onClick}
-    />
-  );
-}
-
 class Carousel extends Component {
   render() {
     const settings = {
       className: "carousel-wrapper",
       speed: 500,
       centerMode: true,
-      centerPadding: "100px",
+      centerPadding: "0px",
+      centerMargin: "50px",
       slidesToShow: 3,
-      slidesToScroll: 2,
+      slidesToScroll: 3,
       arrows: true,
     };
     const text = 'Have you ever heard the expression, “Do not count your chickens before they hatch?” Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to What you profess, you possess!';
@@ -62,6 +41,7 @@ class Carousel extends Component {
               class={'normal'}
               src={photo1}
               name={name1}
+              text={text.substring(0, 285)}
             />
             <Client
               class={'normal'}
