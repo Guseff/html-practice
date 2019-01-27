@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 162px;
+  height: 60px;
+  margin: -7px 0 0 -15px;
+  object-fit: contain; 
+}
