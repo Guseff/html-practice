@@ -8,10 +8,10 @@
 .section {
   max-width: 1110px;
   padding: 40px 165px;
+  margin: 0 auto;
 }
 
 .main-wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
+  /*max-width: 1440px;*/
   font-family: 'Open Sans', sans-serif;
 }

@@ -8,7 +8,7 @@ import './style.css';
 class Header extends Component {
   render() {
     return (
-      <header className="app-header section white">
+      <header className="app-header section">
         <HeaderMenu />
         <h1 className="title">
           Let us Guide You Home

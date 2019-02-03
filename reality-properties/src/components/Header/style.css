@@ -4,6 +4,25 @@
   height: 570px;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+.app-header::before, .app-header::after {
+  content:'';
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #004dff;
+}
+
+.app-header::before {
+  height:650px;
+  left: -100%;
+}
+
+.app-header::after {
+  height:271px;
+  right: -100%;
 }
 
 .title {

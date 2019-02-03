@@ -11,20 +11,20 @@ class HeaderMenu extends Component {
     return (
       <nav className="header-menu">
         <img alt="" src={logo} className="logo" />
+        {/* eslint-disable */}
         <ul className="text">
-          <li><a href="#">Homepage</a></li> {/* eslint-disable-line */}
-          <li><a href="#">About Us</a></li> {/* eslint-disable-line */}
-          <li><a href="#">For Rent</a></li> {/* eslint-disable-line */}
-          <li><a href="#">For Sale</a></li> {/* eslint-disable-line */}
-          <li><a href="#">Our Agents</a></li> {/* eslint-disable-line */}
-          <li><a href="#">Contact Us</a></li> {/* eslint-disable-line */}
+          <li><a href="#">Homepage</a></li> 
+          <li><a href="#">About Us</a></li> 
+          <li><a href="#">For Rent</a></li> 
+          <li><a href="#">For Sale</a></li> 
+          <li><a href="#">Our Agents</a></li> 
+          <li><a href="#">Contact Us</a></li> 
         </ul>
         <ul className="icon">
-          {/* eslint-disable-next-line */}
           <li><a href="#"><img alt="" src={compare} /></a></li>
-          {/* eslint-disable-next-line */}
           <li><a href="#"><img alt="" src={loved} /></a></li>
         </ul>
+        {/* eslint-enable */}
       </nav>
     );
   }
