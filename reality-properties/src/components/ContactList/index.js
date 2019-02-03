@@ -9,7 +9,7 @@ class ContactList extends Component {
   render() {
     return (
       <section className="section">
-        <div className="wrapper">
+        <div className="contact-wrapper">
           <InfoBlock />
           <ContactBlock />
         </div>

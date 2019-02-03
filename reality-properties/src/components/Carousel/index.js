@@ -20,10 +20,11 @@ class Carousel extends Component {
       centerPadding: "0px",
       centerMargin: "50px",
       slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToScroll: 1,
       arrows: true,
     };
     const text = 'Have you ever heard the expression, “Do not count your chickens before they hatch?” Maybe an older, wiser individual would tell you this to keep you from getting ahead of yourself. Like buying a new car before you actually got that new job. Well, when setting and obtaining your goals, you need to What you profess, you possess!';
+    const text1 = "The popularity of breakfast foods is a good reason to keep dependable starters, such as eggs, bread and other staples, on hand. But why reserve them only for morning meals? Planning breakfast for dinner is a good way to serve up simple, satisfying evening meals without spending a lot of time in the kitchen.";
     const name1 = 'Oluchi Mazi';
     const name2 = 'Bansilal Brata';
     const name3 = 'Fariba Mirzaii';
@@ -38,23 +39,27 @@ class Carousel extends Component {
             <Client
               src={photo1}
               name={name1}
+              text={text1.substring(0, 285)}
+            />
+            <Client
+              src={photo2}
+              name={name2}
+              text={text.substring(0, 285)}
+            />
+            <Client
+              src={photo3}
+              name={name3}
+              text={text.substring(0, 285)}
+            />
+            <Client
+              src={photo1}
+              name={name1}
               text={text.substring(0, 285)}
             />
             <Client
               src={photo2}
               name={name2}
-            />
-            <Client
-              src={photo3}
-              name={name3}
-            />
-            <Client
-              src={photo1}
-              name={name1}
-            />
-            <Client
-              src={photo2}
-              name={name2}
+              text={text.substring(0, 285)}
             />
           </Slider>
         </div>

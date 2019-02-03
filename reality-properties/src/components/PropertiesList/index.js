@@ -11,7 +11,8 @@ class PropertiesList extends Component {
         <h2 className="title-section black">
             Featured Properties
         </h2>
-        <div className="wrapper">
+        <div className="prop-wrapper">
+          <PropertyBlock />
           <PropertyBlock />
           <PropertyBlock />
           <PropertyBlock />
