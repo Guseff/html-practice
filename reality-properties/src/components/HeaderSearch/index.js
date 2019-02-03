@@ -47,8 +47,6 @@ class HeaderSearch extends Component {
     console.log(`Option selected:`, selectedOption);
   }
   render() {
-    const { selectedOption } = this.state;
-
     return (
       <div className="header-search">
         <Select 

@@ -8,7 +8,7 @@ class PropertyBlock extends Component {
   render() {
     return (
       <div className="prop-block">
-        <img src={pic} className="home-pic" />
+        <img alt="" src={pic} className="home-pic" />
         <div className="home-title gray">
           Villa With Pool For Sale
         </div>

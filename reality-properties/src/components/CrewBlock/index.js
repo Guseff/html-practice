@@ -9,7 +9,7 @@ class CrewBlock extends Component {
     return (
       <div className="crew-block">
         <div className="crew-person">
-          <img src={girl} className="crew-person--img" />
+          <img alt="" src={girl} className="crew-person--img" />
           <div className="crew-person--info">
             <div className="crew-person--name">
               Opi Watihana

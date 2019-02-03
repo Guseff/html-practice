@@ -10,8 +10,6 @@ import './style.css';
 import photo1 from '../../assets/images/boy@2x.png';
 import photo2 from '../../assets/images/girl-1@2x.png';
 import photo3 from '../../assets/images/girl-2@2x.png';
-import nextArrow from '../../assets/images/left-arrow.svg';
-import prevArrow from '../../assets/images/right-arrow.svg';
 
 class Carousel extends Component {
   render() {

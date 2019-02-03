@@ -10,18 +10,20 @@ class HeaderMenu extends Component {
   render() {
     return (
       <nav className="header-menu">
-        <img src={logo} className="logo" />
+        <img alt="" src={logo} className="logo" />
         <ul className="text">
-          <li><a>Homepage</a></li>
-          <li><a>About Us</a></li>
-          <li><a>For Rent</a></li>
-          <li><a>For Sale</a></li>
-          <li><a>Our Agents</a></li>
-          <li><a>Contact Us</a></li>
+          <li><a href="#">Homepage</a></li> {/* eslint-disable-line */}
+          <li><a href="#">About Us</a></li> {/* eslint-disable-line */}
+          <li><a href="#">For Rent</a></li> {/* eslint-disable-line */}
+          <li><a href="#">For Sale</a></li> {/* eslint-disable-line */}
+          <li><a href="#">Our Agents</a></li> {/* eslint-disable-line */}
+          <li><a href="#">Contact Us</a></li> {/* eslint-disable-line */}
         </ul>
         <ul className="icon">
-          <li><a><img src={compare} /></a></li>
-          <li><a><img src={loved} /></a></li>
+          {/* eslint-disable-next-line */}
+          <li><a href="#"><img alt="" src={compare} /></a></li>
+          {/* eslint-disable-next-line */}
+          <li><a href="#"><img alt="" src={loved} /></a></li>
         </ul>
       </nav>
     );
