@@ -3,11 +3,12 @@
 }
 
 .wrapper {
+  margin: 0;
   background-size: cover;
   max-width: 1110px;
   display: flex;
-  justify-content: space-between;
-  margin: 30px 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .title-section {

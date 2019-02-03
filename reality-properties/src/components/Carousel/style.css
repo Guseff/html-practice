@@ -34,6 +34,7 @@
   width: 16px;
   height: 16px;
   background-image: url('../../assets/images/left-arrow.svg');
+  left: -40px;
 }
 
 .slick-next,
@@ -43,6 +44,7 @@
   width: 16px;
   height: 16px;
   background-image: url('../../assets/images/right-arrow.svg');
+  right: -40px;
 }
 
 .slick-prev:before, 

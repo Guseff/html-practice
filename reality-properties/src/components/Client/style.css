@@ -1,4 +1,4 @@
-.client-block--normal {
+.client-block {
   width: 345px;
   height: 350px;
   display: flex;
@@ -12,16 +12,16 @@
   transition: all 500ms ease;
 }
 
-.slick-center + .slick-slide .client-block--normal {
+.slick-center + .slick-slide .client-block {
   margin-left: -70px !important;
 }
 
-.client-photo--normal {
+.client-photol {
   width: 100px;
   height: 100px;
 }
 
-.client-name--normal {
+.client-name {
   color: #454545;
   font-size: 22px;
   font-weight: bold;
@@ -30,7 +30,7 @@
   margin-top: 40px;
 }
 
-.client-text--normal {
+.client-textl {
   height: 162px;
   opacity: 0.7;
   font-size: 16px;
@@ -40,7 +40,7 @@
   /*overflow-y: hidden;*/
 }
 
-.client-block--big, .slick-current .client-block--normal {
+.slick-current .client-block {
   width: 345px;
   height: 350px;
   display: flex;
@@ -56,13 +56,13 @@
   transition: all 500ms ease;
 }
 
-.client-photo--big, .slick-current .client-photo--normal {
+.slick-current .client-photo {
   width: 120px;
   height: 120px;
   transform: scaleY(0.982);
 }
 
-.client-name--big, .slick-current .client-name--normal {
+.slick-current .client-name {
   color: #454545;
   font-size: 24px;
   font-weight: bold;
@@ -72,7 +72,7 @@
   transform: scaleY(0.78);
 }
 
-.client-text--big, .slick-current .client-text--normal {
+.slick-current .client-text {
   height: 216px;
   font-size: 18px;
   line-height: 1.5;

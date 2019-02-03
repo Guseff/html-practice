@@ -15,9 +15,6 @@ class PropertiesList extends Component {
           <PropertyBlock />
           <PropertyBlock />
           <PropertyBlock />
-        </div>
-        <div className="wrapper">
-          <PropertyBlock />
           <PropertyBlock />
           <PropertyBlock />
         </div>

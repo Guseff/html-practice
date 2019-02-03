@@ -36,28 +36,23 @@ class Carousel extends Component {
           </div>
           <Slider {...settings}>
             <Client
-              class={'normal'}
               src={photo1}
               name={name1}
               text={text.substring(0, 285)}
             />
             <Client
-              class={'normal'}
               src={photo2}
               name={name2}
             />
             <Client
-              class={'normal'}
               src={photo3}
               name={name3}
             />
             <Client
-              class={'normal'}
               src={photo1}
               name={name1}
             />
             <Client
-              class={'normal'}
               src={photo2}
               name={name2}
             />
