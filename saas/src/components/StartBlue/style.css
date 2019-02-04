@@ -1,0 +1,22 @@
+.start-blue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(to right, #0074e4, #0774dd);
+}
+
+.start-blue h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+.start-blue-description {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #fefefe;
+}

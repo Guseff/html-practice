@@ -1,0 +1,21 @@
+.start-white {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-white h1 {
+  font-size: 44px;
+  font-weight: 600;
+  color: #1d262c;
+  margin: 150px 0 15px 0;
+}
+
+.start-white-description {
+  width: 960px;
+  font-size: 18px;
+  line-height: 1.78;
+  text-align: center;
+  color: #71828a;
+  margin-bottom: 30px;
+}

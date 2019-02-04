@@ -6,6 +6,7 @@ class HeaderMenu extends Component {
   render() {
     return (
       <nav className="header-menu">
+        {/* eslint-disable */}
         <ul className="text">
           <li><a>Overview</a></li>
           <li><a>Features</a></li>
@@ -13,6 +14,7 @@ class HeaderMenu extends Component {
           <li><a>About Us</a></li>
           <li><a>FAQ</a></li>
         </ul>
+        {/* eslint-enable */}
       </nav>
     );
   }
