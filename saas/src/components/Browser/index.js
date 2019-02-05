@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import FirstMini from '../FirstMini';
+
 import imgMain from '../../assets/images/bkg-browser.png';
 import imgGirl from '../../assets/images/girl-booty-bkg.svg';
 import imgBoy from '../../assets/images/man-bkg.svg';
@@ -16,9 +18,9 @@ class Browser extends Component {
           <img alt='' src={imgBoy} className='browser-boy' />
         </div>
         <div className="mini-wrap">
-          <div className="first-mini first-mini--active">1</div>
-          <div className="first-mini first-mini--active">2</div>
-          <div className="first-mini first-mini--active">3</div>
+          <FirstMini active={true} />
+          <FirstMini active={false} />
+          <FirstMini active={false} />
         </div>
       </div>
     );

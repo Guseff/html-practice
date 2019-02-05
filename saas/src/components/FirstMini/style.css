@@ -1,0 +1,38 @@
+.first-mini {
+  margin: 0 20px;
+  width: 280px;
+  height: 104px;
+  padding: 40px;
+  background-color: #ffffff;
+  z-index: 50;
+}
+
+.first-mini--active {
+  margin: 0 20px;
+  width: 280px;
+  height: 104px;
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 40px 0 rgba(113, 130, 138, 0.2);
+  z-index: 50;
+}
+
+.first-mini-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px; 
+}
+
+.first-mini .first-mini-title {
+  color: #71828a;
+}
+
+.first-mini--active .first-mini-title {
+  color: #1d262c;
+}
+
+.first-mini-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #71828a;
+}
