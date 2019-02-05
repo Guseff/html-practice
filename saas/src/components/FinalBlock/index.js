@@ -24,7 +24,7 @@ class FinalBlock extends Component {
           />
           <FinalMini
             img = {img2}
-            title = 'Be at peace.'
+            title = 'Adapt, evolve.'
           />
           <FinalMini
             img = {img3}

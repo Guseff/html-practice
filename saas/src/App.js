@@ -6,6 +6,7 @@ import StartBlue from './components/StartBlue';
 import Browser from './components/Browser';
 import UglyBlock from './components/UglyBlock';
 import FinalBlock from './components/FinalBlock';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -28,6 +29,7 @@ class App extends Component {
         />
         <FinalBlock />
         <StartBlue />
+        <Footer />
       </div>
     );
   }

@@ -1,0 +1,23 @@
+.footer-list {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list--title {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: #1d262c;
+  text-transform: uppercase;
+  margin-bottom: 10px
+}
+
+.footer-list a {
+  font-size: 14px;
+  line-height: 3.14;
+  color: #71828a;
+  text-decoration: none;
+  cursor: pointer;
+}
+
