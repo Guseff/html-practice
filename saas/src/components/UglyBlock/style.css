@@ -1,0 +1,10 @@
+.block-wrapper {
+  margin: 180px 0 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-img {
+  width:665px;
+  height: 593px;
+}

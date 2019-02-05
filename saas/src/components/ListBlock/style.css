@@ -1,0 +1,44 @@
+.list-wrapper h3 {
+  margin-top: 103px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1d262c;
+}
+
+.list-descr {
+  max-width: 480px;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #71828a;
+  margin-right: 80px;
+}
+
+.list-body {
+  margin-top: -20px;
+  margin-bottom: 0; 
+  padding: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  color: #1d262c;
+}
+
+.list-body li {
+  list-style: none;
+  background: url('../../assets/images/li.svg') no-repeat 0 -2px;
+  padding-left: 35px;
+  margin: 25px 0 0 -35px;
+}
+
+.list-more {
+  font-size: 13px;
+  font-weight: 500;
+  color: #0074e4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.list-more span {
+  font-size: 20px;
+}

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-import './style.css';
 import StartForm from '../StartForm';
+
+import './style.css';
 
 class StartBlue extends Component {
   render() {

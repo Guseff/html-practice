@@ -4,6 +4,8 @@ import Header from './components/Header';
 import StartWhite from './components/StartWhite';
 import StartBlue from './components/StartBlue';
 import Browser from './components/Browser';
+import UglyBlock from './components/UglyBlock';
+import FinalBlock from './components/FinalBlock';
 
 import './App.css';
 
@@ -14,6 +16,17 @@ class App extends Component {
         <Header />
         <StartWhite />
         <Browser />
+        <UglyBlock 
+          right = {true} 
+          title = {'Second Title'}
+          descr = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque.'}
+        />
+        <UglyBlock 
+          right = {false} 
+          title = {'Third Title'}
+          descr = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque.'}
+        />
+        <FinalBlock />
         <StartBlue />
       </div>
     );
