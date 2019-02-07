@@ -10,17 +10,17 @@ import './style.css';
 
 class Footer extends Component {
   render() {
+    const list = [
+      '<a href="#">Features</a>', 
+      '<a href="#">Use Cases</a>', 
+      '<a href="#">Pricing</a>'
+    ];
     return (
       <footer className="footer">
         <div className="footer-main">
           <div className="footer-lists">
             <FooterList
               title='product'
-              ref = {[
-                '<a href="#">Features</a>', 
-                '<a href="#">Use Cases</a>', 
-                '<a href="#">Pricing</a>'
-              ]}
             />
           </div>
           <div className="footer-social">
