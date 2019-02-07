@@ -10,11 +10,6 @@ import './style.css';
 
 class Footer extends Component {
   render() {
-    const list = [
-      '<a href="#">Features</a>', 
-      '<a href="#">Use Cases</a>', 
-      '<a href="#">Pricing</a>'
-    ];
     return (
       <footer className="footer">
         <div className="footer-main">
@@ -70,12 +65,15 @@ class Footer extends Component {
           <div className="footer-social">
             <img alt="" src={logo} className="logo" />
             <div className="social-list">
+              {/* eslint-disable-next-line */}
               <a href="#" className="social-href">
                 <img alt="" src={fb} />
               </a>
+              {/* eslint-disable-next-line */}
               <a href="#" className="social-href">
                 <img alt="" src={tw} />
               </a>
+              {/* eslint-disable-next-line */}
               <a href="#" className="social-href">
                 <img alt="" src={yt} />
               </a>

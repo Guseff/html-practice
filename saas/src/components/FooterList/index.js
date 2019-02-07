@@ -4,7 +4,6 @@ import './style.css';
 
 class FooterList extends Component {
   render() {
-    const list = this.props.elems;
     const refList = this.props.elems.map((data) => {
       return (
         <li>
