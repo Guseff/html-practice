@@ -53,14 +53,15 @@ class Footer extends Component {
                 ['#2','Link #2'],
                 ['#3','Link #3']
               ]}
-            /><FooterList
-            title='features 2'
-            elems={[
-              ['#1','Link #1'],
-              ['#2','Link #2'],
-              ['#3','Link #3']
-            ]}
-          />
+            />
+            <FooterList
+              title='features 2'
+              elems={[
+                ['#1','Link #1'],
+                ['#2','Link #2'],
+                ['#3','Link #3']
+              ]}
+            />
           </div>
           <div className="footer-social">
             <img alt="" src={logo} className="logo" />
