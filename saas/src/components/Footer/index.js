@@ -21,7 +21,51 @@ class Footer extends Component {
           <div className="footer-lists">
             <FooterList
               title='product'
+              elems={[
+                ['#1','Features'],
+                ['#2','Use Cases'],
+                ['#3','Pricing']
+              ]}
             />
+            <FooterList
+              title='Use Cases'
+              elems={[
+                ['#1','ITES'],
+                ['#2','Consultancies'],
+                ['#3','Services Sector']
+              ]}
+            />
+            <FooterList
+              title='support'
+              elems={[
+                ['#1','Blog'],
+                ['#2','FAQ'],
+                ['#3','Support']
+              ]}
+            />
+            <FooterList
+              title='company'
+              elems={[
+                ['#1','About'],
+                ['#2','Privacy Policy'],
+                ['#3','Terms of Service']
+              ]}
+            />
+            <FooterList
+              title='features 1'
+              elems={[
+                ['#1','Link #1'],
+                ['#2','Link #2'],
+                ['#3','Link #3']
+              ]}
+            /><FooterList
+            title='features 2'
+            elems={[
+              ['#1','Link #1'],
+              ['#2','Link #2'],
+              ['#3','Link #3']
+            ]}
+          />
           </div>
           <div className="footer-social">
             <img alt="" src={logo} className="logo" />

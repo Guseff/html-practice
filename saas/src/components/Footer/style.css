@@ -15,6 +15,7 @@
 .footer-lists {
   display: flex;
   justify-content: start;
+  flex-wrap: wrap;
 }
 
 .footer-list-block {

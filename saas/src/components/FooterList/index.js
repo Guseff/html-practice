@@ -3,26 +3,21 @@ import React, { Component } from 'react';
 import './style.css';
 
 class FooterList extends Component {
-
-  
-
   render() {
-    const list = [
-      'Features', 
-      'Use Cases', 
-      'Pricing'
-    ];
-    const reactElementsArray = list.map((data) => {
+    const list = this.props.elems;
+    const refList = this.props.elems.map((data) => {
       return (
-        <li><a href="#">{data}</a></li>
+        <li>
+          <a href={data[0]}>{data[1]}</a>
+        </li>
       );
     });
     return (
       <div className="footer-list">
         <div className="footer-list--title">
           {this.props.title}
-          {reactElementsArray}
         </div>
+        {refList}
       </div>
     );
   }
