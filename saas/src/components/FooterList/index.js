@@ -7,7 +7,7 @@ class FooterList extends Component {
     const refList = this.props.elems.map((data) => {
       return (
         <li>
-          <a href={data[0]}>{data[1]}</a>
+          <a href={data.href}>{data.label}</a>
         </li>
       );
     });
