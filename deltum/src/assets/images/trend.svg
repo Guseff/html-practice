@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="332" height="164" viewBox="0 0 332 164">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="85.616%">
+            <stop offset="0%" stop-color="#4CD964" stop-opacity=".5"/>
+            <stop offset="100%" stop-color="#4CD964" stop-opacity=".05"/>
+        </linearGradient>
+        <path id="c" d="M2.682 59.263l46.48 14.927 56.313-37.317 49.61 26.59 37.094-60.781 37.542 25.921"/>
+        <filter id="b" width="119.7%" height="162.4%" x="-9.8%" y="-23%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="1.035" result="shadowSpreadOuter1"/>
+            <feOffset dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feMorphology in="SourceAlpha" radius="1.035" result="shadowInner"/>
+            <feOffset dy="6" in="shadowInner" result="shadowInner"/>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.238 0 0 0 0 0.68 0 0 0 0 0.311666667 0 0 0 1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g stroke="#EFEFEF" stroke-linecap="square" stroke-width=".868">
+            <path d="M25.081 3.323h306.205M25.081 38.183h306.205M25.081 73.044h306.205M25.081 107.904h306.205M25.081 142.764h306.205"/>
+        </g>
+        <path fill="url(#a)" d="M56.821 76.842l46.48 14.927 56.314-37.316 49.609 26.59 37.095-60.782 37.542 25.922v100.38H56.821z" transform="translate(-.531 -3.798)"/>
+        <g fill="#485465" font-family="CircularStd-Medium, Circular Std" font-size="8.939" font-weight="400" letter-spacing=".107">
+            <text transform="translate(40.043 152.329)">
+                <tspan x="10.154" y="9">Aug 20</tspan>
+            </text>
+            <text transform="translate(40.043 152.329)">
+                <tspan x="84.009" y="9">Aug 27</tspan>
+            </text>
+            <text transform="translate(40.043 152.329)">
+                <tspan x="159.965" y="9">Oct 4</tspan>
+            </text>
+            <text transform="translate(40.043 152.329)">
+                <tspan x="232.47" y="9">Oct 11</tspan>
+            </text>
+        </g>
+        <g fill="#485465" font-family="CircularStd-Medium, Circular Std" font-size="8.939" font-weight="400" letter-spacing=".107">
+            <text transform="translate(-.18 -3.203)">
+                <tspan x="11.163" y="148.442">0</tspan>
+            </text>
+            <text transform="translate(-.18 -3.203)">
+                <tspan x="6.149" y="113.581">50</tspan>
+            </text>
+            <text transform="translate(-.18 -3.203)">
+                <tspan x="2.01" y="78.721">100</tspan>
+            </text>
+            <text transform="translate(-.18 -3.203)">
+                <tspan x="2.636" y="43.86">150</tspan>
+            </text>
+            <text transform="translate(-.18 -3.203)">
+                <tspan x=".643" y="9">200</tspan>
+            </text>
+        </g>
+        <g transform="translate(53.408 13.78)">
+            <use fill="#000" filter="url(#b)" xlink:href="#c"/>
+            <use stroke="#4AD461" stroke-width="2.069" xlink:href="#c"/>
+            <circle cx="4.469" cy="59.888" r="4.469" fill="#FFF" stroke="#007AFF" stroke-width="2.069"/>
+            <circle cx="50.056" cy="74.19" r="4.469" fill="#FFF" stroke="#007AFF" stroke-width="2.069"/>
+            <circle cx="105.475" cy="38.436" r="4.469" fill="#007AFF" stroke="#007AFF" stroke-width="2.069"/>
+            <circle cx="155.531" cy="62.57" r="4.469" fill="#FFF" stroke="#007AFF" stroke-width="2.069"/>
+            <circle cx="192.179" cy="4.469" r="4.469" fill="#FFF" stroke="#007AFF" stroke-width="2.069"/>
+            <circle cx="229.721" cy="28.603" r="4.469" fill="#FFF" stroke="#007AFF" stroke-width="2.069"/>
+        </g>
+    </g>
+</svg>

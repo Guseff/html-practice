@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 145px;
+  height: 27px;
+  padding-left: 35px; 
+  background: url('../../../assets/images/logo-mark.svg') 0 0 no-repeat;
+  font-family: 'Circular Std Black';
+  font-size: 16.2px;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 27px;
+}
+
+.board {
+  display: flex;
+  align-items: center;
+}
+
+.board ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.board ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.board ul li a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 27px;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.1px;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.board ul li img {
+  margin-right: 5px; 
+}
+
+.green-dot {
+  position: absolute;
+  top: 0;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  background-color: #4cd964;
+  border: 2px solid #007aff;
+  border-radius: 6px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  height: 27px;
+  border-left:  1px solid rgba(255, 255, 255, 0.2);
+  font-size: 11px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-left: 12px;
+}

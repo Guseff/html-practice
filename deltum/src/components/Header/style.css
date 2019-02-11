@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 145px;
+  height: 27px;
+  padding-left: 35px; 
+  background: url('../../assets/images/logo-mark.svg') 0 0 no-repeat;
+  font-family: 'Circular Std Black';
+  font-size: 16.2px;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 27px;
+}

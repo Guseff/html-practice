@@ -1,0 +1,35 @@
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 215px;
+  height: 28px;
+  border: 0 none;
+  outline: none;
+  padding-left: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: 'Circular Std Book';
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: -0.1px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.search-submit {
+  width: 30px;
+  height: 30px;
+  border: 0 none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  background-image: url('../../../assets/images/ico-search.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 0;
+  cursor: pointer;
+}
