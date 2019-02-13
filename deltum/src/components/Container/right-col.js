@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 
 import './style.css';
 
-class Content extends Component {
+class RightCol extends Component {
   render() {
     return (
-      <div className="content">
+      <div className="colomn-right">
         {this.props.children}
       </div>
     );
   }
 }
 
-export default Content;
+export default RightCol;

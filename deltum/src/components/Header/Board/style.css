@@ -89,10 +89,13 @@
 
 .user a {
   text-decoration: none;
+  content: '';
+  margin-top: 4px;
+  margin-right: -10px;
 }
 
 .user a::after {
   color: rgba(186, 188, 191, 0.5);
   content: '\2807';
-  font-size: 27px;
+  font-size: 17px;
 }

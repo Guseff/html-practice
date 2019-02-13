@@ -9,6 +9,7 @@ const User = ({user}) => {
       <div className="user-pic">
         {user.initials}
       </div>
+      {/* eslint-disable-next-line */}
       <a href='#' className='user-ref'></a>
     </div>
   );
