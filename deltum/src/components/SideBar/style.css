@@ -34,7 +34,12 @@
 
 .sidebar-button--active, 
 .sidebar-button--active img {
- opacity: 1;
+ opacity: 1 !important;
+}
+
+.sidebar-button--gray {
+  color: #acacbf !important;
+  opacity: 1 !important;
 }
 
 .act {
@@ -53,4 +58,35 @@
   width: 28px;
   height: 36px;
   background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25));
+}
+
+.separator-blue {
+  width: 128px;
+  height: 1px;
+  background-color: #5da5f3;
+  margin: 15px 0 360px;
+}
+
+.separator-gray {
+  width: 128px;
+  height: 1px;
+  background-color: #e9e9ee;
+  margin: 15px 0 5px;
+}
+
+.sidebar-reflist ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 26px;
+}
+
+.sidebar-reflist ul li {
+  line-height: 28px;
+}
+
+.sidebar-reflist ul li a {
+  text-decoration: none;
+  font-family: 'Circular Std Medium';
+  font-size: 11px;
+  color: #acacbf;
 }
