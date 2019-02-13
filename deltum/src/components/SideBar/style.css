@@ -10,6 +10,7 @@
 }
 
 .sidebar-button {
+  position: relative;
   font-family: 'Circular Std Medium';
   font-size: 13px;
   font-weight: 500;
@@ -23,12 +24,33 @@
   outline: none;
   cursor: pointer;
   margin-bottom: 12px;
+  opacity: 0.75;
 }
 
 .sidebar-button img {
   margin: 0 10px 0 20px;
+  opacity: 0.75;
 }
 
-.sidebar-button--active {
- opacity: 0.76;
+.sidebar-button--active, 
+.sidebar-button--active img {
+ opacity: 1;
+}
+
+.act {
+  position: absolute;
+  display: block;
+  width: 4px;
+  height: 36px;
+  box-shadow: 4px 0 7px 0 rgba(48, 48, 48, 0.6);
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+}
+
+.act-gradient {
+  position: absolute;
+  display: block;
+  width: 28px;
+  height: 36px;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25));
 }
