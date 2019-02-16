@@ -25,7 +25,9 @@ class App extends Component {
               </InfoBlock>
             </LeftCol>
             <RightCol>
-              <InfoBlock></InfoBlock>
+              <InfoBlock>
+                
+              </InfoBlock>
             </RightCol>
           </Container>
         </Content>

@@ -4,3 +4,125 @@
   background-color: #ffffff;
   border-radius: 6px;
 }
+
+.info-block--separator {
+  height: 1px;
+  width: 100%;
+  background-color: #efefef;
+  margin: 20px 0;
+}
+/*
+.info-block img {
+  float: left;
+}
+*/
+.event {
+  display: flex;
+}
+
+.event-subscr {
+  position: relative;
+  flex: 1;
+  margin-left: -15px;
+}
+
+.event-subscr--title {
+  font-size: 12.9px;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+  color: #51516b;
+  margin-top: 3px;
+  margin-bottom: 11px;
+}
+
+.event-subscr--text {
+  font-size: 10.5px;
+  line-height: 1.62;
+  letter-spacing: -0.1px;
+  color: #979ea6; 
+}
+
+.event-subscr--text a {
+  text-decoration: none;
+  color: #007aff;
+  cursor: pointer;
+}
+
+.btn-event {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 23px;
+  padding: 0 10px;
+  background-color: rgba(255, 169, 0, 0.1);
+  border: 1px solid #ffa900;
+  border-radius: 11px;
+  font-family: 'Circular Std Medium';
+  font-size: 10.5px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #ffa900;
+  cursor: pointer;
+}
+
+.btn-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 32px;
+  padding: 0 15px;
+  background-color: #ffffff;
+  border: 1px solid #007aff;
+  border-radius: 5px;
+  font-family: 'Circular Std Medium';
+  font-size: 12px;
+  line-height: 32px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #007aff;
+  cursor: pointer;
+}
+
+.event-info--do {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.event-info--do li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.event-info {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.event-info--do li a {
+  display: flex;
+  align-items: center;
+  font-size: 11.3px;
+  color: #9797a6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.event-info--do li img {
+  margin-right: 7px; 
+}
+
+.event-info--time {
+  display: flex;
+  font-size: 11.3px;
+  letter-spacing: -0.1px;
+  color: #515e6b;
+  align-items: center;
+}
+
+.event-info--time img {
+  margin-right: 10px; 
+}
