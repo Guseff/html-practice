@@ -11,6 +11,7 @@ import Event from './components/Event';
 import InfoTitle from './components/InfoBlock/title.js';
 import Items from './components/Items';
 import Trends from './components/Trends';
+import PendingTickets from './components/PendingTickets';
 
 import './App.css';
 
@@ -39,7 +40,7 @@ class App extends Component {
                 <Trends />
               </InfoBlock>
               <InfoBlock>
-
+                <PendingTickets />
               </InfoBlock>
             </RightCol>
           </Container>

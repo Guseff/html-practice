@@ -49,6 +49,10 @@
   cursor: pointer;
 }
 
+.tickets .btn-info {
+  top: -5px !important;
+}
+
 .info-title {
   margin-top: -7px;
   font-family: 'Circular Std Medium';

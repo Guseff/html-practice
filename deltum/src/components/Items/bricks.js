@@ -40,6 +40,7 @@ class Bricks extends Component {
           {aList.map((data) => (
             <li>
               <img alt='' src={data.img} />
+              {/* eslint-disable-next-line */}
               <a href="#">
                 {data.text}
               </a>
