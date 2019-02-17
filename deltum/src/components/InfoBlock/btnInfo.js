@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './style.css';
 
-class btnInfo extends Component {
+class BtnInfo extends Component {
   render() {
     return (
       <button className="btn-info">
@@ -12,4 +12,4 @@ class btnInfo extends Component {
   }
 }
 
-export default btnInfo;
+export default BtnInfo;

@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 
-import BtnEvent from './btnEvent.js';
+import BtnEvent from '../InfoBlock/btnEvent.js';
 import InfoDo from './infoDo.js';
 
 import './style.css';
 
 import img from '../../assets/images/winners.svg';
 import timeico from '../../assets/images/ico-clock.svg';
-
 
 const INFO_DO = [
   {
