@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import BtnInfo from '../InfoBlock/btnInfo.js';
 import Bricks from './bricks.js';
 import Labels from './labels.js';
+import ItemTable from './table.js';
 
 import './style.css';
 
@@ -94,14 +95,22 @@ class Items extends Component {
           <div className="items-qty">
             1,508 <span>items</span>
           </div>
-          <div className="color-trend">
-            <Bricks
-              data={COLORS}
-            />
-          </div>
+          <Bricks
+            data={COLORS}
+          />
           <div className="info-block--separator"></div>
           <Labels
             data={COLORS}
+          />
+          <div className="table-before">
+            <div className="table-before--title">
+              Recently added <span>(25 items)</span>
+            </div>
+            {/* eslint-disable-next-line */}
+            <a href="#">View all recent items</a>
+          </div>
+          <ItemTable
+            data={ITEMS}
           />
         </div>
       </div>

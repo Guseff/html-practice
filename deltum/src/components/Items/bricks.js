@@ -16,15 +16,37 @@ class Bricks extends Component {
         backgroundColor: data.color,
       }
     ));
+
+    const aList = [
+      {
+        img: require('../../assets/images/ico-plus.svg'),
+        text: 'Create label',
+      },{
+        img: require('../../assets/images/ico-chevron-down.svg'),
+        text: 'Hide labels',
+      } 
+    ];
       
     return (
-      <ul className="brick-list">        
-        {brStyle.map((data) => (
-          <li>
-            <div className="brick-item" style={data}></div>
-          </li>
-        ))}                  
-      </ul>
+      <div className="color-trend">
+        <ul className="brick-list">        
+          {brStyle.map((data) => (
+            <li>
+              <div className="brick-item" style={data}></div>
+            </li>
+          ))}                  
+        </ul>
+        <ul className="brick-a-list">
+          {aList.map((data) => (
+            <li>
+              <img alt='' src={data.img} />
+              <a href="#">
+                {data.text}
+              </a>
+            </li>     
+           ))}       
+        </ul>
+      </div>
     );
   }
 }
