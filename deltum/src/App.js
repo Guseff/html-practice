@@ -10,6 +10,7 @@ import InfoBlock from './components/InfoBlock';
 import Event from './components/Event';
 import InfoTitle from './components/InfoBlock/title.js';
 import Items from './components/Items';
+import Trends from './components/Trends';
 
 import './App.css';
 
@@ -35,7 +36,7 @@ class App extends Component {
             </LeftCol>
             <RightCol>
               <InfoBlock>
-
+                <Trends />
               </InfoBlock>
               <InfoBlock>
 
