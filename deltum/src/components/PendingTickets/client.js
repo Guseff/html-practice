@@ -21,7 +21,7 @@ class Client extends Component {
           <div className="client-text">
             {data.text}
             {/* eslint-disable-next-line */}
-            {data.more ? <a href="#">...more</a> : null}
+            {data.more && <a href="#">...more</a>}
           </div>
         </div>
       </div>

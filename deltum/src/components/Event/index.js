@@ -39,7 +39,7 @@ class Event extends Component {
             </div>
           </div>
         </div>
-        <div className="info-block--separator"></div>
+        <div className="info-block--separator" />
         <div className="event-info">
           <div className="event-info--time">
             <img alt='' src={timeico} />

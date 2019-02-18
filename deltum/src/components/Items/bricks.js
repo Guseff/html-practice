@@ -2,12 +2,26 @@ import React, { Component } from 'react';
 
 import './style.css';
 
-class Bricks extends Component {
-  render() {
-    let sum = 0;
+const aList = [
+  {
+    img: require('../../assets/images/ico-plus.svg'),
+    text: 'Create label',
+  },{
+    img: require('../../assets/images/ico-chevron-down.svg'),
+    text: 'Hide labels',
+  } 
+];
 
-    this.props.data.map((data) => 
-      sum += data.qty
+class Bricks extends Component {
+  getDerivedStateFromProps() {
+
+  }
+  
+  render() {
+    const sum = this.props.data.reduce(
+      (
+        (acc, curr) => acc + curr.qty
+      ), 0
     );
 
     const brStyle = this.props.data.map((data) => (
@@ -16,16 +30,6 @@ class Bricks extends Component {
         backgroundColor: data.color,
       }
     ));
-
-    const aList = [
-      {
-        img: require('../../assets/images/ico-plus.svg'),
-        text: 'Create label',
-      },{
-        img: require('../../assets/images/ico-chevron-down.svg'),
-        text: 'Hide labels',
-      } 
-    ];
       
     return (
       <div className="color-trend">

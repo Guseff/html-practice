@@ -98,7 +98,7 @@ class Items extends Component {
           <Bricks
             data={COLORS}
           />
-          <div className="info-block--separator"></div>
+          <div className="info-block--separator" />
           <Labels
             data={COLORS}
           />
