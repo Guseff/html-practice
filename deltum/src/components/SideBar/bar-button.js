@@ -4,16 +4,6 @@ import classNames from 'classnames';
 import './style.css';
 
 class BarButton extends Component {
-  classNameForButton(data) {
-    if (data.set) {
-      return (classNames('sidebar-button', 'sidebar-button--gray'));
-    } else if (data.active) {
-      return (classNames('sidebar-button', 'sidebar-button--active'));
-    } else {
-      return ('sidebar-button');
-    }
-  }
-  
   render() {
     return (
       <div>
@@ -23,7 +13,10 @@ class BarButton extends Component {
             <div className="act-gradient"></div>
           </div>
         )}
-        <button className={this.classNameForButton(this.props.data)}>
+        <button className={classNames('sidebar-button', {
+                                  'sidebar-button--gray': this.props.data.set,
+                                  'sidebar-button--active': this.props.data.active
+                                })}>
           <img alt='' src={this.props.data.img} />
           {this.props.data.text}
         </button>
