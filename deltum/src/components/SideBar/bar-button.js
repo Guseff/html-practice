@@ -5,6 +5,11 @@ import './style.css';
 
 class BarButton extends Component {
   render() {
+    const buttonClassName = classNames('sidebar-button', {
+      'sidebar-button--gray': this.props.data.set,
+      'sidebar-button--active': this.props.data.active
+    });
+    
     return (
       <div>
         {this.props.data.active && (
@@ -13,10 +18,7 @@ class BarButton extends Component {
             <div className="act-gradient"></div>
           </div>
         )}
-        <button className={classNames('sidebar-button', {
-                                  'sidebar-button--gray': this.props.data.set,
-                                  'sidebar-button--active': this.props.data.active
-                                })}>
+        <button className={buttonClassName}>
           <img alt='' src={this.props.data.img} />
           {this.props.data.text}
         </button>
