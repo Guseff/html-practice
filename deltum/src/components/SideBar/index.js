@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import BarButton from './bar-button.js';
-import RefList from './ref-list.js';
+import BarButton from './BarButton';
+import RefList from './RefList';
 
 import './style.css';
 

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import BtnInfo from '../InfoBlock/btnInfo.js';
-import Bricks from './bricks.js';
-import Labels from './labels.js';
-import ItemTable from './table.js';
+import BtnInfo from '../InfoBlock/BtnInfo';
+import Bricks from './Bricks';
+import Labels from './Labels';
+import ItemTable from './ItemTable';
 
 import './style.css';
 

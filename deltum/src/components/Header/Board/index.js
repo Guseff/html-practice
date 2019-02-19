@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import BoardRef from './board-ref.js';
-import User from './user.js';
+import BoardRef from './BoardRef';
+import User from './User';
 
 import './style.css';
 

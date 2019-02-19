@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import BtnEvent from '../InfoBlock/btnEvent.js';
-import InfoDo from './infoDo.js';
+import BtnEvent from '../InfoBlock/BtnEvent';
+import InfoDo from './InfoDo';
 
 import './style.css';
 

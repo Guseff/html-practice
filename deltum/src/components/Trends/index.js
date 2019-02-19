@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import BtnInfo from '../InfoBlock/btnInfo.js';
+import BtnInfo from '../InfoBlock/BtnInfo';
 
 import arr from '../../assets/images/ico-arrow-down.svg';
 import trend from '../../assets/images/trend.svg';

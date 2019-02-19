@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import BtnInfo from '../InfoBlock/btnInfo.js';
-import Client from './client.js';
+import BtnInfo from '../InfoBlock/BtnInfo';
+import Client from './Client';
 
 import './style.css';
 
