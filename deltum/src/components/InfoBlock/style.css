@@ -1,0 +1,72 @@
+.info-block {
+  padding: 20px 25px;
+  box-shadow: 0 11px 36px 0 rgba(48, 48, 48, 0.16), 0 7px 14px 0 rgba(0, 0, 0, 0.01);
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-bottom: 37px;
+}
+
+.info-block--separator {
+  height: 1px;
+  width: 100%;
+  background-color: #efefef;
+  margin: 20px 0;
+}
+
+.btn-event {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  height: 23px;
+  padding: 0 10px;
+  background-color: rgba(255, 169, 0, 0.1);
+  border: 1px solid #ffa900;
+  border-radius: 11px;
+  font-family: 'Circular Std Medium';
+  font-size: 10.5px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #ffa900;
+  cursor: pointer;
+}
+
+.btn-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 32px;
+  padding: 0 15px;
+  background-color: #ffffff;
+  border: 1px solid #007aff;
+  border-radius: 5px;
+  font-family: 'Circular Std Medium';
+  font-size: 12px;
+  line-height: 32px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #007aff;
+  cursor: pointer;
+}
+
+.tickets .btn-info {
+  top: -5px !important;
+}
+
+.info-title {
+  margin-top: -7px;
+  font-family: 'Circular Std Medium';
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.info-subscr {
+  font-size: 11.3px;
+  line-height: 1.29;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 9px;
+  margin-bottom: 17px;
+}

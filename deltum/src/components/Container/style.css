@@ -1,5 +1,15 @@
 .container {
-  width: 100%;
+  flex: 1;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+}
+
+.colomn-left {
+  width: 620px;
+  margin-right: 25px;
+}
+
+.colomn-right {
+  flex: 1;
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Logo from './logo.js';
+import Logo from './Logo';
 import Container from '../Container';
 import Search from './Search';
 import Board from './Board';

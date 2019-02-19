@@ -1,0 +1,174 @@
+.items {
+  font-family: 'Circular Std Medium';
+  position: relative;
+}
+
+.items-title {
+  font-size: 12.9px;
+  letter-spacing: -0.1px;
+  color: #51516b;
+}
+
+.items-qty {
+  margin-top: 12px;
+  font-size: 22.6px;
+  font-weight: bold;
+  letter-spacing: -0.1px;
+  color: #007aff;
+}
+
+.items-qty span {
+  font-size: 11.3px;
+  font-weight: normal;
+  color: #9797a6;
+  letter-spacing: -0.1px;
+}
+
+.color-trend {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brick-a-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.brick-a-list li {
+  display: flex;
+  margin-left: 22px;
+}
+
+.brick-a-list li a {
+  display: block;
+  font-size: 11.3px;
+  letter-spacing: 0.1px;
+  color: #979ea6;
+  border-bottom: 1px solid #979ea6;
+  text-decoration: none;
+}
+
+.brick-a-list li img {
+  margin-right: 5px;
+}
+
+.brick-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 250px;
+}
+
+.brick-list li {
+  display: inline-block;
+}
+
+.brick-item {
+  height: 10px;
+}
+
+.label-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 35px 0;
+}
+
+.label-list li {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.label-item {
+  font-size: 12.9px;
+  letter-spacing: -0.1px;
+}
+
+.label-item--name {
+  font-weight: 500;
+  color: #515e6b;
+}
+
+.label-item--qty {
+  color: #9797a6;
+}
+
+.color-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  margin-right: 13px;
+}
+
+.table-before {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.table-before--title {
+  font-size: 12.9px;
+  letter-spacing: -0.1px;
+  color: #515e6b;
+}
+
+.table-before--title span {
+  color: #9797a6;
+}
+
+.table-before a {
+  display: block;
+  font-size: 11.3px;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+  color: #007aff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.items table {
+  font-size: 12.9px;
+  line-height: 1.13;
+  letter-spacing: 0.2px;
+  color: #515e6b;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 21px 0 14px; 
+}
+
+.items td, .items th {
+  border: none;
+  text-align: left;
+  height: 34px;
+  padding: 0 15px;
+}
+
+.items th {
+  font-size: 11.3px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: 0.2px;
+  color: #979ea6;
+  background-color: rgba(151, 158, 166, 0.08);
+}
+
+.items tr:nth-child(odd) {
+  background-color: rgba(151, 158, 166, 0.07);;
+}
+
+.items td:nth-child(3n) {
+  text-align: center;
+}
+
+.items td:nth-child(5n) {
+  text-align: right;
+}
+
+.items th:nth-child(5n) {
+  text-align: center;
+}
